@@ -2,11 +2,11 @@ body{
 background-color: #F5FFFE;
 }
 header {
-font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  background-image: url("/images/flower-with-sky.jpg");
+  font-size: 45px
 }
-header p{
-  font-size: 45px;
-}
+
 
 footer{
   background-color:E4F4FF;

@@ -1,6 +1,13 @@
 body{
-background-color: #F1FFF4;
+background-color: #F5FFFE;
 }
-header h1 {
+header {
 font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+header p{
+  font-size: 45px;
+}
+
+footer{
+  background-color:E4F4FF;
 }

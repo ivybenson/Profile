@@ -1,32 +1,43 @@
 body{
-  background-color: #F5FFFE;
+  background-color: rgb(255, 255, 255);
 }
 
 header {
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  background-image: url ("/images/flower-with-sky.jpg");
+  background-image: url("images/flower.jpg");
   font-size: 20px;
   text-align:center;
 }
 
 header h1{
-  text-shadow: 0px 0px 12px #000;
+  text-shadow: 0px 0px 10px #000;
+  color: rgb(235, 231, 231);
 }
 
 header p{
   font-size: 16px;
+  color: rgb(235, 231, 231);
 }
 
 main{
   font-family:Gill Sans, sans-serif;
   font-size:14px;
-  margin:200px;
+  margin:40px;
   padding:20px
 }
 
-footer{
-  background-color:E4F4FF;
+div {
   text-align:center;
+}
+
+article {
+  color:rgb(126, 123, 123);
+}
+
+footer{
+  background-color: rgb(196, 196, 196);
+  text-align:center;
+  padding: 10px;
 }
 
 .image-circle {

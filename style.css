@@ -58,6 +58,10 @@ footer{
   margin-right: auto;
   width: 50%;
 }
+
+.section-color {
+  background-color: #F5DDFF;
+}
   
 /*two added classes for flexbox practice, media first flexbox practed included*/
 .group {

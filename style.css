@@ -59,23 +59,11 @@ footer{
   width: 50%;
 }
   
-/*two added classes for flexbox practice*/
+/*two added classes for flexbox practice, media first flexbox practed included*/
 .group {
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
-}
-
-@media all and (min-width: 800px) {
-
-  section, h1 {
-    padding: 0 10%;
-  }
-
-  .group {
-    flex-direction: row;
-  }
-
 }
 
 .item {
@@ -87,7 +75,18 @@ footer{
   flex: 2;
 }
 
-  
+@media all and (min-width: 800px) {
+
+  section, h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+
 /*finishing off with styled links I am not sure what is not working curently*/
   
   a {

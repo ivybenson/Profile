@@ -57,7 +57,20 @@ footer{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  )
+}
+  
+/*two added classes for flexbox practice*/
+  .group {
+  display: flex;
+  flex-direction: row;   /* or column */
+  margin-bottom: 100px; 
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
   
 /*finishing off with styled links I am not sure what is not working curently*/
   

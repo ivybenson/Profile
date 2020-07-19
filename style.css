@@ -71,6 +71,10 @@ footer{
   margin: 10px;
 }
 
+.item-double {
+  flex: 2;
+}
+
   
 /*finishing off with styled links I am not sure what is not working curently*/
   

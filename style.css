@@ -7,6 +7,8 @@ body{
 header {
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   background-image: url("images/flower.jpg");
+  background-repeat: repeat;
+  background-size: 500px 500px;
   font-size: 20px;
   text-align:center;
   color: rgb(235, 231, 231);
@@ -41,7 +43,7 @@ footer{
   padding: 10px;
 }
 
-/*a couple classes to help with the flow of the page*/
+/*a couple classes to help with the styling of the main image of the page*/
 
 .image-circle {
     border-radius: 50%; 
@@ -54,14 +56,15 @@ footer{
   width: 50%;
   )
   
-  /*finishing off with styled links*/
+/*finishing off with styled links I am not sure what is not working curently*/
   
   a {
-  font-family: Arial, sans-serif;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   font-size: 18px;
 }
+  a:link {color: blue;}
+  a:visited {color:pink;}
+  a:hover {color:red;}
+  a:active{color:green}
+  
 
-a:link    { color: #0063F3;  }
-a:visited { color: #FD96D9;   }
-a:hover   { color: #80ACFF; }
-a:active  { color: pink;  }

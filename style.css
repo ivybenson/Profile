@@ -26,18 +26,18 @@ main{
   font-family:Gill Sans, sans-serif;
   font-size:18px;
   margin:40px;
-  padding:20px
+  padding:10px
 }
 
 div {
   text-align:center;
-  padding: 50px
+  padding: 30px
 }
 
 article {
   color:rgb(126, 123, 123);
   font-size:16px;
-  padding:50px;
+  padding:30px;
 }
 
 footer{
@@ -60,10 +60,22 @@ footer{
 }
   
 /*two added classes for flexbox practice*/
-  .group {
+.group {
   display: flex;
-  flex-direction: row;   /* or column */
-  margin-bottom: 100px; 
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+@media all and (min-width: 800px) {
+
+  section, h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
 }
 
 .item {

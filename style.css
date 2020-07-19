@@ -1,3 +1,5 @@
+/* these should be appearing in cascading order of the page*/
+
 body{
   background-color: #FFFFFF;
 }
@@ -7,16 +9,15 @@ header {
   background-image: url("images/flower.jpg");
   font-size: 20px;
   text-align:center;
+  color: rgb(235, 231, 231);
 }
 
 header h1{
   text-shadow: 0px 0px 10px #000;
-  color: rgb(235, 231, 231);
 }
 
 header p{
   font-size: 16px;
-  color: rgb(235, 231, 231);
 }
 
 main{
@@ -40,6 +41,8 @@ footer{
   padding: 10px;
 }
 
+/*a couple classes to help with the flow of the page*/
+
 .image-circle {
     border-radius: 50%; 
 }
@@ -50,3 +53,15 @@ footer{
   margin-right: auto;
   width: 50%;
   )
+  
+  /*finishing off with styled links*/
+  
+  a {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+a:link    { color: #0063F3;  }
+a:visited { color: #FD96D9;   }
+a:hover   { color: #80ACFF; }
+a:active  { color: pink;  }

@@ -46,6 +46,22 @@ footer{
   padding: 10px;
 }
 
+/*contact form*/
+form {
+  padding: 10px;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+
 /*a couple classes to help with the styling of the main image of the page*/
 
 .image-circle {
@@ -95,11 +111,11 @@ footer{
   
   a {
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
-  a:link {color: blue;}
-  a:visited {color:pink;}
-  a:hover {color:red;}
+  a:link {color: #0003C6;}
+  a:visited {color:#FA17FE;}
+  a:hover {color:#FE1717;}
   a:active{color:green}
   
 

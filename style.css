@@ -11,15 +11,17 @@ header {
   background-size: 500px 500px;
   font-size: 20px;
   text-align:center;
-  color: rgb(235, 231, 231);
-}
-
-header h1{
   text-shadow: 0px 0px 10px #000;
+  color: rgb(235, 231, 231);
 }
 
 header p{
   font-size: 16px;
+}
+
+h3{
+  font-size: 24px;
+  text-decoration: underline;
 }
 
 main{
@@ -35,9 +37,8 @@ div {
 }
 
 article {
-  color:rgb(126, 123, 123);
-  font-size:16px;
-  padding:30px;
+  font-size:14px;
+  padding:20px;
 }
 
 footer{

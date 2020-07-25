@@ -114,10 +114,10 @@ img { max-width: 100% }
   
   a {
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
   a:link {color: #0003C6;}
-  a:visited {color:#FA17FE;}
+  a:visited {color:#7E01DA;}
   a:hover {color:#FE1717;}
   a:active{color:green}
   

@@ -1,7 +1,7 @@
 /* these should be appearing in cascading order of the page*/
 
-body{
-  background-color: #FFFFFF;
+body {
+  background-color: #ffffff;
 }
 
 header {
@@ -10,50 +10,53 @@ header {
   background-repeat: repeat;
   background-size: 500px 500px;
   font-size: 20px;
-  text-align:center;
+  text-align: center;
   text-shadow: 0px 0px 15px #000;
   color: rgb(235, 231, 231);
 }
 
-header p{
+header p {
   font-size: 16px;
+  text-shadow: 0px 0px 20px #000;
+  color: rgb(235, 231, 231);
+  text-emphasis-style: bold;
 }
 
-h3{
+h3 {
   font-size: 24px;
   text-decoration: underline;
-  padding:auto;
+  padding: auto;
 }
 
-main{
-  font-family:Gill Sans, sans-serif;
-  font-size:18px;
-  padding:10px
+main {
+  font-family: Gill Sans, sans-serif;
+  font-size: 18px;
+  padding: 10px;
 }
 
 div {
-  text-align:center;
-  padding: 20px
+  text-align: center;
+  padding: 20px;
 }
 
 article {
-  font-size:18px;
-  padding:20px;
+  font-size: 18px;
+  padding: 20px;
 }
 
-footer{
+footer {
   background-color: rgb(196, 196, 196);
-  text-align:center;
+  text-align: center;
   padding: 10px;
 }
 
 /*contact form*/
 form {
   padding-right: 10px;
-  text-align:left;
+  text-align: left;
 }
 
-form input, 
+form input,
 form textarea {
   width: 100%;
   margin-bottom: 20px;
@@ -63,15 +66,17 @@ form textarea {
   height: 120px;
 }
 
-img { max-width: 100% }
+img {
+  max-width: 100%;
+}
 
 /*a couple classes to help with the styling of the main image of the page*/
 
 .image-circle {
-    border-radius: 50%; 
+  border-radius: 50%;
 }
 
-.center{
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -79,9 +84,9 @@ img { max-width: 100% }
 }
 
 .section-color {
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
 }
-  
+
 /*two added classes for flexbox practice, media first flexbox practed included*/
 .group {
   display: flex;
@@ -99,8 +104,8 @@ img { max-width: 100% }
 }
 
 @media all and (min-width: 800px) {
-
-  section, h1 {
+  section,
+  h1 {
     padding: 0 10%;
   }
 
@@ -109,16 +114,21 @@ img { max-width: 100% }
   }
 }
 
-
 /*finishing off with styled links I am not sure what is not working curently*/
-  
-  a {
+
+a {
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   font-size: 16px;
 }
-  a:link {color: #0003C6;}
-  a:visited {color:#7E01DA;}
-  a:hover {color:#FE1717;}
-  a:active{color:green}
-  
-
+a:link {
+  color: #0003c6;
+}
+a:visited {
+  color: #7e01da;
+}
+a:hover {
+  color: #fe1717;
+}
+a:active {
+  color: green;
+}

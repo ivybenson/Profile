@@ -1,6 +1,9 @@
-### ivy-profile
-## Short Overview
+### Hi, I'm Ivy Benson!
 
-This webpage includes a few things about my background and why I am in web development. 
+## Software Engineer with Thinkful
 
-It also has features a header with an image-backgroud from a photography set I did this spring as well as a picture of myself.
+I am working a software engineering student from Minneapolis, MN. I am passionate about the creativity in the field!
+
+I am looking to collaborate on full-stack projects including social media desgin!
+
+I am in the process of mastering

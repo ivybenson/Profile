@@ -1,25 +1,42 @@
 /* these should be appearing in cascading order of the page*/
 
+* {
+  margin: 0px;
+}
+
+html,
 body {
-  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  background-image: url("images/flower.jpg");
-  background-repeat: repeat;
-  background-size: 500px 500px;
-  font-size: 20px;
-  text-align: center;
-  text-shadow: 0px 0px 15px #000;
-  color: rgb(235, 231, 231);
+  margin: 0px;
 }
 
-header p {
-  font-size: 16px;
-  text-shadow: 0px 0px 20px #000;
-  color: rgb(235, 231, 231);
+.upgrade {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 5px 5px 15px #000;
+  color: rgb(255, 255, 255);
+  position: relative;
   text-emphasis-style: bold;
+  margin-top: 0;
+}
+
+.upgrade::before {
+  content: "";
+  background: url("./images/flower.jpg");
+  background-repeat: repeat;
+  background-size: 500px 500px;
+  position: absolute;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
 h3 {
@@ -105,7 +122,8 @@ img {
 
 @media all and (min-width: 800px) {
   section,
-  h1 {
+  h1,
+  p {
     padding: 0 10%;
   }
 

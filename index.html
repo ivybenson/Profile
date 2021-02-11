@@ -14,10 +14,16 @@
       <p>Full Stack Web Developer</p>
     </header>
 
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#contacts">Contact</a>
+      <a href="#projects">Projects</a>
+    </nav>
+
     <main>
       <img
         src="images/profile-photo.jpg"
-        width="350"
+        width="200"
         alt="Profile Picture"
         class="image-circle center"
       />
@@ -44,7 +50,7 @@
       <article>
         <!-- I did not want to copy the example exactly so I added some more to this section, it can definitely be cut down -->
 
-        <h2>About Me:</h2>
+        <h2><a name="about"></a>About Me:</h2>
         <p>
           I am loving my time at Thinkful. I put in the hours and learn
           something new everyday <i>and</i> I get to apply that new knowledge
@@ -57,10 +63,11 @@
         <ul>
           <li>
             I am new to web development and have been having a lot of fun doing
-            it. I have started on the basics of Javascript, HTML, and CSS. I
-            have recently jumped into the world of React which really thrills me
-            because of how adaptable it is. When finished with the program I
-            would like to offer services including:
+            it. I have recently been learning about algorithms and data
+            structures which is intensely fascinating. I have recently jumped
+            into the world of React which really thrills me because of how
+            adaptable it is. When finished with the program I would like to
+            offer services including:
             <ul>
               <li>Write programs with a variety of computer languages.</li>
               <li>
@@ -75,12 +82,6 @@
             the phrase 'Teamwork makes the dream work' and look forward to
             collaborating with others on projects.
           </li>
-          <li>
-            In 2020 I've been challenging myself to make more homemade food and
-            have mastered some truly tasty recipes including but not limited to:
-            Fried Rice with Tofu, Buffalo Cauliflower with Mac&Cheese, and
-            Vegetarian Sushi Bowls.
-          </li>
         </ul>
       </article>
       <hr />
@@ -89,7 +90,7 @@
       <!-- New items added for flexbox practice-->
 
       <section class="section-color">
-        <h3 style="text-align: center">Projects</h3>
+        <h3 style="text-align: center"><a name="projects"></a>Projects</h3>
         <div class="group">
           <div class="item">
             <a
@@ -98,11 +99,12 @@
               >Boredom Buster</a
             >
             <p>
-              This is my boredom busting app! Within the app you can entertain
-              yourself four different ways. You can find a new joke, test
-              yourself with trivia, find a new cocktail recipe, and find an
-              activity to do. I used HTML, CSS, Javascript, and jQuery to build
-              this app. Here is the
+              Find yourself longing for entertainment and the regular socials
+              and Netflix just aren't cutting it? Bust your boredom with this
+              app! Within the app you can entertain yourself four different
+              ways. You can find a new joke, test yourself with trivia, find a
+              new cocktail recipe, and find an activity to do. I used HTML, CSS,
+              Javascript, and jQuery to build this app. Here is the
               <a
                 href="https://ivybenson.github.io/Boredom-Buster/"
                 target="_blank"
@@ -113,53 +115,56 @@
           </div>
 
           <div class="item">
-            <a href="https://ivybenson.github.io/Noteful/" target="_blank"
-              >Noteful App</a
-            >
-            <p>
-              React App using RESTful API to supply notes and their folders,
-              users can add both their own notes and folders for tracking ideas.
-              I also used HTML, CSS, React, and jQuery to build this project.
-              Here is the
-              <a href="https://ivybenson.github.io/Noteful/" target="_blank"
-                >Github Repo Link.</a
-              >
-            </p>
-            <img src="images/Noteful.png" alt="noteful" />
-          </div>
-
-          <div class="item">
             <a
-              href="https://ivybenson.github.io/National-Parks-API/"
+              href="https://github.com/ivybenson/dd-logging-client"
               target="_blank"
-              >National Parks API</a
+              >Dungeons Truth</a
             >
             <p>
-              Find your next National Parks trip with my National Parks API app.
-              Locate a given number of parks in a state and plan from there.
-              This app uses HTML, CSS, Javascript, and a RESTful API to display
-              the information you need to plan a spectacular trip.
+              Dungeons Truth is an app that role playing game players can use to
+              create a more rounded out experience when playing the game.
+              Dungeons Truth acts as a platform to log the players and
+              characters experiences throughout the campaign. Upon log in users
+              create a campaign that displays a code. Once the code is created
+              all players can add themselves into the game on the same campaign
+              code log their journey together. Users log minimal player
+              information. On campaign log users can post publicly and privately
+              taking down towns they have traveled to, who they meet, what
+              creatures they fight, and magical objects they pick. This app uses
+              React for the front end and my own NodeJS server for the backend.
+              Here is the
               <a
-                href="https://github.com/ivybenson/project-three"
+                href="https://github.com/ivybenson/dd-logging-client"
                 target="_blank"
                 >Github Repo Link.</a
               >
             </p>
-            <img src="images/National-Parks-API.png" alt="project-three" />
+            <img src="images/dashboard.png" alt="project-three" />
+          </div>
+
+          <div class="item">
+            <a href="https://github.com/ivybenson/habit-app" target="_blank"
+              >HabitNow</a
+            >
+            <p>
+              HabitNow is a tool that users can use to build habits. There is no
+              limit to the number of goals that they can add, each with an
+              individual calendar. Users add a habit with the number of times
+              per week they want to complete the habit and note about it. The
+              habit is then added to the user's dashboard. Users track days by
+              tapping the calendar of the day they have completed their habit.
+              This is what establishes the routine of the habit. This app uses
+              React for the front end and my own NodeJS server for the backend.
+              Here is the
+              <a href="https://github.com/ivybenson/habit-app" target="_blank"
+                >Github Repo Link.</a
+              >
+            </p>
+            <img src="images/habitsadded.png" alt="noteful" />
           </div>
         </div>
       </section>
 
-      <!-- formal Contact section - contact links displayed in footer
-        
-        <h3> Contact Ivy </h3>
-        <ol> 
-          <li> <a href="https://www.linkedin.com/in/ivy-benson-407b27144/" target="_blank">LinkedIn</a></li>
-          <li> <a href="https://github.com/ivybenson" target="_blank">Github</a></li>
-        </ol>
-     formal Contact section - contact links displayed in footer-->
-
-      <!-- adding basic contact section -->
       <section>
         <h3>Inquiries</h3>
         <div class="group">
@@ -183,6 +188,7 @@
     <footer>
       <p>© Ivy Benson</p>
       <a
+        name="contacts"
         href="https://www.linkedin.com/in/ivy-benson-407b27144/"
         target="_blank"
         ><img src="images/linkedin.png" width="30" height="30" alt="linkedin"

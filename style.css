@@ -31,7 +31,7 @@ header {
   background-repeat: repeat;
   background-size: 500px 500px;
   position: absolute;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   top: 0;
   left: 0;
   bottom: 0;
@@ -97,7 +97,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 .section-color {
@@ -138,15 +137,16 @@ a {
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   font-size: 16px;
 }
-a:link {
-  color: #0003c6;
+
+nav {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(240, 146, 210);
 }
-a:visited {
-  color: #7e01da;
-}
-a:hover {
-  color: #fe1717;
-}
-a:active {
-  color: green;
+
+nav a {
+  text-decoration: none;
+  color: white;
 }

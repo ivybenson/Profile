@@ -50,17 +50,18 @@
       <article>
         <!-- I did not want to copy the example exactly so I added some more to this section, it can definitely be cut down -->
 
-        <h2><a name="about"></a>About Me:</h2>
-        <p>
-          I am loving my time at Thinkful. I put in the hours and learn
-          something new everyday <i>and</i> I get to apply that new knowledge
-          right away. The web development field is all about learning something
-          new. I get competitive about making the best that I can. I will always
-          be challenging myself to create the design the best content out there.
-          I want to be a part of one of the most passionate communities I've
-          ever met.
-        </p>
+        <h2><a id="about"></a>About Me:</h2>
+
         <ul>
+          <li>
+            I am loving my time at Thinkful. I put in the hours and learn
+            something new every day <i>and</i> I get to apply that new knowledge
+            right away. The web development field is all about learning
+            something new. I get competitive about making the best that I can. I
+            will always be challenging myself to create the design the best
+            content out there. I want to be a part of one of the most passionate
+            communities I've ever met.
+          </li>
           <li>
             I am new to web development and have been having a lot of fun doing
             it. I have recently been learning about algorithms and data
@@ -69,18 +70,25 @@
             adaptable it is. When finished with the program I would like to
             offer services including:
             <ul>
-              <li>Write programs with a variety of computer languages.</li>
+              <li>Write programs in a variety of computer languages.</li>
               <li>
-                Test programs for errors and fix the faulty lines of computer
-                code.
+                Test websites and applications for errors and fix faulty lines
+                of computer code.
               </li>
-              <li>Update and streamline existing programs and apps.</li>
+              <li>Update and streamline existing websites and applications.</li>
             </ul>
           </li>
           <li>
             While I love to work both independently and in a team, I stick by
             the phrase 'Teamwork makes the dream work' and look forward to
             collaborating with others on projects.
+          </li>
+          <li>
+            Outside of coding, I love to cook! Over the last year I challenged
+            myself to cook something new every week. Some of my favorites
+            include buffalo roasted cauliflower, vegetarian sushi bowls, and a
+            potato leek soup to die for. I find that cooking is a great way to
+            relax and challenge my creativity.
           </li>
         </ul>
       </article>
@@ -89,15 +97,29 @@
 
       <!-- New items added for flexbox practice-->
 
+      <section>
+        <h3 style="text-align: center">Technologies Used</h3>
+        <div>
+          <p>Front End: Javascript, jQuery, HTML, CSS, React, Redux</p>
+          <p>
+            Back End: Node.js, Express, PostgresSQL, Mocha & Chai, REST APIS
+          </p>
+          <p>
+            Dev Tools: Postman, Git, GitHub, Chrome DevTools, Heroku, Vercel
+          </p>
+          <p>
+            Additional Technical Fluencies: Adobe Suite, Photoshop, Google
+            Suites, Slack, Zoom
+          </p>
+        </div>
+      </section>
+
       <section class="section-color">
-        <h3 style="text-align: center"><a name="projects"></a>Projects</h3>
+        <h3 style="text-align: center"><a id="projects"></a>Projects</h3>
         <div class="group">
           <div class="item">
-            <a
-              href="https://ivybenson.github.io/boredom-buster/"
-              target="_blank"
-              >Boredom Buster</a
-            >
+            <h3>Boredom Buster</h3>
+            <img src="images/boredom-buster-screenshot.png" alt="BB" />
             <p>
               Find yourself longing for entertainment and the regular socials
               and Netflix just aren't cutting it? Bust your boredom with this
@@ -106,46 +128,43 @@
               new cocktail recipe, and find an activity to do. I used HTML, CSS,
               Javascript, and jQuery to build this app. Here is the
               <a
-                href="https://ivybenson.github.io/Boredom-Buster/"
+                href="https://github.com/ivybenson/Boredom-Buster"
                 target="_blank"
                 >Github Repo Link.</a
               >
+              Here is the
+              <a href="https://ivybenson.github.io/Boredom-Buster/">Live App</a
+              >.
             </p>
-            <img src="images/boredom-buster-screenshot.png" alt="BB" />
           </div>
 
           <div class="item">
-            <a
-              href="https://github.com/ivybenson/dd-logging-client"
-              target="_blank"
-              >Dungeons Truth</a
-            >
+            <h3>Dungeons Truth</h3>
+            <img src="images/dashboard.png" alt="project-three" />
             <p>
-              Dungeons Truth is an app that role playing game players can use to
+              Dungeons Truth is an app that role-playing game players can use to
               create a more rounded out experience when playing the game.
-              Dungeons Truth acts as a platform to log the players and
-              characters experiences throughout the campaign. Upon log in users
-              create a campaign that displays a code. Once the code is created
-              all players can add themselves into the game on the same campaign
-              code log their journey together. Users log minimal player
-              information. On campaign log users can post publicly and privately
-              taking down towns they have traveled to, who they meet, what
-              creatures they fight, and magical objects they pick. This app uses
-              React for the front end and my own NodeJS server for the backend.
-              Here is the
+              Dungeons Truth acts as a platform to log the player’s and
+              character’s experiences throughout the campaign. Upon login, users
+              create a campaign that displays a code. On campaign log users can
+              post publicly and privately logging towns they have traveled to,
+              who they meet, what creatures they fight, and magical objects they
+              pick find. This app uses React for the front end and my own NodeJS
+              server for the backend. Here is the
               <a
                 href="https://github.com/ivybenson/dd-logging-client"
                 target="_blank"
                 >Github Repo Link.</a
               >
+              Here is the
+              <a href="https://dungeons-truth-ggdcc6s1c.vercel.app">Live App</a
+              >.
             </p>
-            <img src="images/dashboard.png" alt="project-three" />
           </div>
 
           <div class="item">
-            <a href="https://github.com/ivybenson/habit-app" target="_blank"
-              >HabitNow</a
-            >
+            <h3>HabitNow</h3>
+            <img src="images/habitsadded.png" alt="habitnow" />
             <p>
               HabitNow is a tool that users can use to build habits. There is no
               limit to the number of goals that they can add, each with an
@@ -159,8 +178,9 @@
               <a href="https://github.com/ivybenson/habit-app" target="_blank"
                 >Github Repo Link.</a
               >
+              Here is the
+              <a href="https://habit-app-omega.vercel.app">Live App</a>.
             </p>
-            <img src="images/habitsadded.png" alt="noteful" />
           </div>
         </div>
       </section>
